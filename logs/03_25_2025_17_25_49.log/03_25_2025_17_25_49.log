@@ -1,0 +1,23 @@
+[ 2025-03-25 17:25:49,813] 148 numexpr.utils - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-03-25 17:25:49,813] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-03-25 17:25:51,309] 17 root - INFO - Initiate data ingestion
+[ 2025-03-25 17:25:52,346] 57 root - INFO - Performed train test split on the dataframe
+[ 2025-03-25 17:25:52,346] 59 root - INFO - Exited split data as train_test method  of Data Ingestion
+[ 2025-03-25 17:25:52,347] 64 root - INFO - Exporting train and test file path.
+[ 2025-03-25 17:25:52,387] 73 root - INFO - Exported train and test file path.
+[ 2025-03-25 17:25:52,388] 19 root - INFO - Data Initiation completed
+[ 2025-03-25 17:25:52,392] 24 root - INFO - Initaite data validation
+[ 2025-03-25 17:25:52,434] 31 root - INFO - Required number of columns: 2
+[ 2025-03-25 17:25:52,434] 32 root - INFO - Dataframe has columns: 31
+[ 2025-03-25 17:25:52,434] 31 root - INFO - Required number of columns: 2
+[ 2025-03-25 17:25:52,434] 32 root - INFO - Dataframe has columns: 31
+[ 2025-03-25 17:25:52,539] 26 root - INFO - Data Validation completed
+[ 2025-03-25 17:25:52,540] 30 root - INFO - Data Transformation started
+[ 2025-03-25 17:25:52,540] 53 root - INFO - Entered initaite_data_transformation method of DataTransformation class
+[ 2025-03-25 17:25:52,540] 55 root - INFO - Starting data transformation
+[ 2025-03-25 17:25:52,556] 42 root - INFO - Entered get_data_transformer_obj method of DataTransformation class
+[ 2025-03-25 17:25:52,556] 45 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-03-25 17:25:52,568] 45 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-03-25 17:25:52,570] 49 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-03-25 17:25:52,571] 33 root - INFO - data transformation completed
+[ 2025-03-25 17:25:52,571] 36 root - INFO - Model Training started

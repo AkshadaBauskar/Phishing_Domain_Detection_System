@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/aksha/Phishing_Domain_Detection_System/mlruns/0/d8d7e58daa584c1bbce209a1e3e657c5/artifacts
+end_time: 1743444375751
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8d7e58daa584c1bbce209a1e3e657c5
+run_name: sedate-donkey-959
+run_uuid: d8d7e58daa584c1bbce209a1e3e657c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743444368061
+status: 3
+tags: []
+user_id: aksha
